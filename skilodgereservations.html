@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang = "en-us">
+<head>
+<meta charset = "utf-8">
+	<link href = "skilodgesubpage.css" rel= "stylesheet">
+	<title>Booking</title>
+	
+</head>
+<body>
+	<header>
+		<h1> Booking </h1>
+	</header>
+	<div>
+	<nav class = "navbar"> 
+		<ul style= "text-decoration:none">
+			<li> <a href="index.html" class = "navbar"> <b> Home </b> </a> </li>
+			<li><a href="skilodgereservations.html" class = "navbar"> <b> Make a Reservation </b> </a></li>
+			<li> <a href="skilodgegallery.html" class = "navbar"> <b> Image Gallery </b> </a> </li>
+			<li> <a href="skilodgecontact.html" class = "navbar"> <b> Contact Us </b> </a> </li>
+		</ul>
+	</nav>
+	<form method = "get" action = "reservationserver.py">
+	<fieldset> 
+	<legend> Identification </legend>
+	<label> First Name: <input type = "text" name = "first_name" id = "first_name" required = "required"></label>
+	<label> Last Name: <input type = "text" name = "last_name" id = "last_name" required = "required"></label>
+	</fieldset>
+	<fieldset> 
+	<legend> Timeframe </legend>
+	<label> Check In Date: <input type = "date" name = "start" id = "start" required = "required"></label>
+	<label> Check Out Date: <input type = "date" name = "end" id = "end" required = "required"></label>
+	</fieldset>
+	Are you creating or cancelling a reservation?: <br>
+	<input type = "radio" name = "action" id = "create" value = "create" required = "required"> Create a Reservation <br>
+	<input type = "radio" name = "action" id = "cancel" value = "cancel" required = "required"> Cancel a Reservation <br>
+	<input type = "submit" value = "submit">
+	</form>
+	</div>
+	<footer>
+			<ul> 
+				<li><a href="index.html" alt = "Home Page Link"> Home </a> </li>
+				<li><a href="skilodgereservations.html" alt = "Make a Reservation"> Make a Reservation </a></li>
+				<li><a href="skilodgegallery.html" alt = "Image Gallery"> Image Gallery </a> </li>
+			</ul>
+			<ul> 
+				<li><a href="skilodgecontact.html" alt = "Contact Us"> Contact Us </a> </li>
+				<li><a href="skilodgeprivacy.html" alt = "Privacy Policy"> Privacy Policy </a> </li>
+			</ul> 
+	</footer>
+<body>
+</html>

@@ -1,0 +1,64 @@
+@media only screen and (max-width: 1024px){ 
+	* {box-sizing: border-box}
+	body {background-color : #ddecf1; background-image: url(forest-below-the-snow-capped-mountain.jpg); background-position: center;
+	background-repeat: no-repeat}
+	header h1 {background-color : #BFC6F4; color : #454346; font-family: times, serif; font-size : 3em; padding: 0.5em; text-align: center; 			border-style: inset; border-color: #454346; border-width:0.25em;}
+	nav {background-color : #7C795A; font-family : times, serif; font-size : 1em; border-style: outset; border-color: #454346; border-				width: 0.35em; flex: 2; text-align: center}
+	nav a {text-decoration: none; padding-right: 1em;}
+	nav ul {list-style-type : none}
+	nav li {display: inline;}
+	.navbar:link{color: black}
+	.navbar:visited {color:  #ECEBF1}
+	.navbar:hover {color:#312320 ; font-size:1.2em}
+	div {display: flex; flex-direction: column; justify-content: center}
+	main {background-color : #ECEBF1;  color: #312320; margin: 0.5em; border-style: outset; border-color: #454346; border-width:0.15em; flex: 4}
+	main h1 {font-family: times, serif; font-size: 1em; text-align: center; border-style: none; margin: 0.5em}
+	main p {font-family : arial, sans-serif; font-size: 0.75em; margin: 0.75em}
+	aside {background-color : #ECEBF1;  color: #312320; margin: 0.5em; border-style: outset; border-color: #454346; border-width:0.15em; flex: 4}
+	aside h1 {font-family: times, serif; font-size: 1em; text-align: center; border-style: none; margin: 0.5em}
+	aside p {font-family : arial, sans-serif; font-size: 0.75em; margin: 0.75em}
+	footer {background-color : #BFC6F4; color : #454346; font-family: times, serif; font-size : 0.75em; padding: 0.25em; margin: 0.5em; 
+		border-style: inset; border-color: #454346; border-width:0.25em; display: flex; flex-direction: column; justify-content: left}
+	footer ul {list-style-type : none; flex: 5}
+	footer li {display: block}
+	footer li a {text-decoration: none; padding : 1em;}
+	footer li a:link {color: #454346}
+	footer li a:visited {color:  red}
+	footer li a:hover {color: #312320}
+	fieldset {background-color : #ECEBF1;  color: #312320; margin: 0.5em; border-style: inset; border-color: #454346; border-width:0.15em;}
+	legend {font-family: times, serif; font-size: 1em; text-align: center; border-style: none; margin: 0.5em}
+	label {font-family : arial, sans-serif; font-size: 0.75em}
+	form {background-color : #ECEBF1;  color: #312320; margin: 0.5em; border-style: outset; border-color: #454346; border-width:0.15em; flex: 7}
+}
+
+@media only screen and (min-width: 1024px){
+	*{box-sizing: border-box} 
+	body {background-color : #ddecf1; background-image: url(forest-below-the-snow-capped-mountain.jpg); background-position: center;
+	background-repeat: no-repeat}
+	header h1 {background-color : #BFC6F4; color : #454346; font-family: times, serif; font-size : 3em; padding: 0.5em; text-align: center; 			border-style: inset; border-color: #454346; border-width:0.25em;}
+	nav {background-color : #7C795A; font-family : times, serif; font-size : 1em; border-style: outset; border-color: #454346; border-				width: 0.35em; flex: 2; text-align: center}
+	nav a {text-decoration: none; padding-right: 1em;}
+	nav ul {list-style-type : none}
+	.navbar:link{color: black}
+	.navbar:visited {color:  #ECEBF1}
+	.navbar:hover {color:#312320 ; font-size:1.2em}
+	div {display: flex; flex-direction: row; justify-content: center}
+	main {background-color : #ECEBF1;  color: #312320; margin: 0.5em; border-style: outset; border-color: #454346; border-width:0.15em; flex: 4}
+	main h1 {font-family: times, serif; font-size: 1em; text-align: center; border-style: none; margin: 0.5em}
+	main p {font-family : arial, sans-serif; font-size: 0.75em; margin: 0.75em}
+	aside {background-color : #ECEBF1;  color: #312320; margin: 0.5em; border-style: outset; border-color: #454346; border-width:0.15em; flex: 4}
+	aside h1 {font-family: times, serif; font-size: 1em; text-align: center; border-style: none; margin: 0.5em}
+	aside p {font-family : arial, sans-serif; font-size: 0.75em; margin: 0.75em}
+	footer {background-color : #BFC6F4; color : #454346; font-family: times, serif; font-size : 0.75em; padding: 0.25em; margin: 0.5em; 
+		border-style: inset; border-color: #454346; border-width:0.25em; display: flex; flex-direction: row; justify-content: left}
+	footer ul {list-style-type : none; flex: 5}
+	footer li {display: inline-block}
+	footer li a {text-decoration: none; padding : 1em;}
+	footer li a:link {color: #454346}
+	footer li a:visited {color:  red}
+	footer li a:hover {color: #312320}
+	fieldset {background-color : #ECEBF1;  color: #312320; margin: 0.5em; border-style: inset; border-color: #454346; border-width:0.15em;}
+	legend {font-family: times, serif; font-size: 1em; text-align: center; border-style: none; margin: 0.5em}
+	label {font-family : arial, sans-serif; font-size: 0.75em}
+	form {background-color : #ECEBF1;  color: #312320; margin: 0.5em; border-style: outset; border-color: #454346; border-width:0.15em; flex: 7}
+}
